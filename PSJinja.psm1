@@ -780,7 +780,7 @@ function Invoke-Jinja {
             return $Template
         }
 
-        # Normalise data to a hashtable for uniform key access
+        # Normalize data to a hashtable for uniform key access
         if ($null -eq $Data) {
             $context = [hashtable]@{}
         }
